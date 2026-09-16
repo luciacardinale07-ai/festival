@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi video</title>
-</head>
-<body>
-    <h1>Mi animación</h1>
+    <title>Video</title>
 
-    <video controls width="800">
+    <style>
+        body {
+            margin: 0;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        video {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <video controls>
         <source src="animacion%20mp4.mp4" type="video/mp4">
         Tu navegador no puede reproducir este video.
     </video>
